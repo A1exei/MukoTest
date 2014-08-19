@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A245FB719A3D13D0005B73C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FB619A3D13C0005B73C /* Foundation.framework */; };
+		2A245FB919A3D13D0005B73C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FB819A3D13D0005B73C /* CoreGraphics.framework */; };
+		2A245FBB19A3D13D0005B73C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FBA19A3D13D0005B73C /* UIKit.framework */; };
+		2A245FC119A3D13D0005B73C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A245FBF19A3D13D0005B73C /* InfoPlist.strings */; };
+		2A245FC319A3D13D0005B73C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A245FC219A3D13D0005B73C /* main.m */; };
+		2A245FC719A3D13D0005B73C /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A245FC619A3D13D0005B73C /* MTAppDelegate.m */; };
+		2A245FCA19A3D13D0005B73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A245FC819A3D13D0005B73C /* Main.storyboard */; };
+		2A245FCD19A3D13D0005B73C /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A245FCC19A3D13D0005B73C /* MTViewController.m */; };
+		2A245FCF19A3D13D0005B73C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A245FCE19A3D13D0005B73C /* Images.xcassets */; };
+		2A245FD619A3D13D0005B73C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FD519A3D13D0005B73C /* XCTest.framework */; };
+		2A245FD719A3D13D0005B73C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FB619A3D13C0005B73C /* Foundation.framework */; };
+		2A245FD819A3D13D0005B73C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FBA19A3D13D0005B73C /* UIKit.framework */; };
+		2A245FE019A3D13D0005B73C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A245FDE19A3D13D0005B73C /* InfoPlist.strings */; };
+		2A245FE219A3D13D0005B73C /* MukoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A245FE119A3D13D0005B73C /* MukoTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A245FD919A3D13D0005B73C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A245FAB19A3D13C0005B73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A245FB219A3D13C0005B73C;
+			remoteInfo = MukoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A245FB319A3D13C0005B73C /* MukoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MukoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A245FB619A3D13C0005B73C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A245FB819A3D13D0005B73C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A245FBA19A3D13D0005B73C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A245FBE19A3D13D0005B73C /* MukoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MukoTest-Info.plist"; sourceTree = "<group>"; };
+		2A245FC019A3D13D0005B73C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A245FC219A3D13D0005B73C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A245FC419A3D13D0005B73C /* MukoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MukoTest-Prefix.pch"; sourceTree = "<group>"; };
+		2A245FC519A3D13D0005B73C /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		2A245FC619A3D13D0005B73C /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		2A245FC919A3D13D0005B73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A245FCB19A3D13D0005B73C /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
+		2A245FCC19A3D13D0005B73C /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
+		2A245FCE19A3D13D0005B73C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A245FD419A3D13D0005B73C /* MukoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MukoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A245FD519A3D13D0005B73C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2A245FDD19A3D13D0005B73C /* MukoTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MukoTestTests-Info.plist"; sourceTree = "<group>"; };
+		2A245FDF19A3D13D0005B73C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A245FE119A3D13D0005B73C /* MukoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MukoTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A245FB019A3D13C0005B73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A245FB919A3D13D0005B73C /* CoreGraphics.framework in Frameworks */,
+				2A245FBB19A3D13D0005B73C /* UIKit.framework in Frameworks */,
+				2A245FB719A3D13D0005B73C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A245FD119A3D13D0005B73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A245FD619A3D13D0005B73C /* XCTest.framework in Frameworks */,
+				2A245FD819A3D13D0005B73C /* UIKit.framework in Frameworks */,
+				2A245FD719A3D13D0005B73C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A245FAA19A3D13C0005B73C = {
+			isa = PBXGroup;
+			children = (
+				2A245FBC19A3D13D0005B73C /* MukoTest */,
+				2A245FDB19A3D13D0005B73C /* MukoTestTests */,
+				2A245FB519A3D13C0005B73C /* Frameworks */,
+				2A245FB419A3D13C0005B73C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A245FB419A3D13C0005B73C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A245FB319A3D13C0005B73C /* MukoTest.app */,
+				2A245FD419A3D13D0005B73C /* MukoTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A245FB519A3D13C0005B73C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A245FB619A3D13C0005B73C /* Foundation.framework */,
+				2A245FB819A3D13D0005B73C /* CoreGraphics.framework */,
+				2A245FBA19A3D13D0005B73C /* UIKit.framework */,
+				2A245FD519A3D13D0005B73C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A245FBC19A3D13D0005B73C /* MukoTest */ = {
+			isa = PBXGroup;
+			children = (
+				2A245FC519A3D13D0005B73C /* MTAppDelegate.h */,
+				2A245FC619A3D13D0005B73C /* MTAppDelegate.m */,
+				2A245FC819A3D13D0005B73C /* Main.storyboard */,
+				2A245FCB19A3D13D0005B73C /* MTViewController.h */,
+				2A245FCC19A3D13D0005B73C /* MTViewController.m */,
+				2A245FCE19A3D13D0005B73C /* Images.xcassets */,
+				2A245FBD19A3D13D0005B73C /* Supporting Files */,
+			);
+			path = MukoTest;
+			sourceTree = "<group>";
+		};
+		2A245FBD19A3D13D0005B73C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A245FBE19A3D13D0005B73C /* MukoTest-Info.plist */,
+				2A245FBF19A3D13D0005B73C /* InfoPlist.strings */,
+				2A245FC219A3D13D0005B73C /* main.m */,
+				2A245FC419A3D13D0005B73C /* MukoTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A245FDB19A3D13D0005B73C /* MukoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A245FE119A3D13D0005B73C /* MukoTestTests.m */,
+				2A245FDC19A3D13D0005B73C /* Supporting Files */,
+			);
+			path = MukoTestTests;
+			sourceTree = "<group>";
+		};
+		2A245FDC19A3D13D0005B73C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A245FDD19A3D13D0005B73C /* MukoTestTests-Info.plist */,
+				2A245FDE19A3D13D0005B73C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A245FB219A3D13C0005B73C /* MukoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A245FE519A3D13D0005B73C /* Build configuration list for PBXNativeTarget "MukoTest" */;
+			buildPhases = (
+				2A245FAF19A3D13C0005B73C /* Sources */,
+				2A245FB019A3D13C0005B73C /* Frameworks */,
+				2A245FB119A3D13C0005B73C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MukoTest;
+			productName = MukoTest;
+			productReference = 2A245FB319A3D13C0005B73C /* MukoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A245FD319A3D13D0005B73C /* MukoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A245FE819A3D13D0005B73C /* Build configuration list for PBXNativeTarget "MukoTestTests" */;
+			buildPhases = (
+				2A245FD019A3D13D0005B73C /* Sources */,
+				2A245FD119A3D13D0005B73C /* Frameworks */,
+				2A245FD219A3D13D0005B73C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A245FDA19A3D13D0005B73C /* PBXTargetDependency */,
+			);
+			name = MukoTestTests;
+			productName = MukoTestTests;
+			productReference = 2A245FD419A3D13D0005B73C /* MukoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A245FAB19A3D13C0005B73C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					2A245FD319A3D13D0005B73C = {
+						TestTargetID = 2A245FB219A3D13C0005B73C;
+					};
+				};
+			};
+			buildConfigurationList = 2A245FAE19A3D13C0005B73C /* Build configuration list for PBXProject "MukoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A245FAA19A3D13C0005B73C;
+			productRefGroup = 2A245FB419A3D13C0005B73C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A245FB219A3D13C0005B73C /* MukoTest */,
+				2A245FD319A3D13D0005B73C /* MukoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A245FB119A3D13C0005B73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A245FCF19A3D13D0005B73C /* Images.xcassets in Resources */,
+				2A245FC119A3D13D0005B73C /* InfoPlist.strings in Resources */,
+				2A245FCA19A3D13D0005B73C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A245FD219A3D13D0005B73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A245FE019A3D13D0005B73C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A245FAF19A3D13C0005B73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A245FC319A3D13D0005B73C /* main.m in Sources */,
+				2A245FCD19A3D13D0005B73C /* MTViewController.m in Sources */,
+				2A245FC719A3D13D0005B73C /* MTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A245FD019A3D13D0005B73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A245FE219A3D13D0005B73C /* MukoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A245FDA19A3D13D0005B73C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A245FB219A3D13C0005B73C /* MukoTest */;
+			targetProxy = 2A245FD919A3D13D0005B73C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A245FBF19A3D13D0005B73C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A245FC019A3D13D0005B73C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A245FC819A3D13D0005B73C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A245FC919A3D13D0005B73C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A245FDE19A3D13D0005B73C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A245FDF19A3D13D0005B73C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A245FE319A3D13D0005B73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A245FE419A3D13D0005B73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A245FE619A3D13D0005B73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MukoTest/MukoTest-Prefix.pch";
+				INFOPLIST_FILE = "MukoTest/MukoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A245FE719A3D13D0005B73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MukoTest/MukoTest-Prefix.pch";
+				INFOPLIST_FILE = "MukoTest/MukoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A245FE919A3D13D0005B73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MukoTest.app/MukoTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MukoTest/MukoTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MukoTestTests/MukoTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2A245FEA19A3D13D0005B73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MukoTest.app/MukoTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MukoTest/MukoTest-Prefix.pch";
+				INFOPLIST_FILE = "MukoTestTests/MukoTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A245FAE19A3D13C0005B73C /* Build configuration list for PBXProject "MukoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A245FE319A3D13D0005B73C /* Debug */,
+				2A245FE419A3D13D0005B73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A245FE519A3D13D0005B73C /* Build configuration list for PBXNativeTarget "MukoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A245FE619A3D13D0005B73C /* Debug */,
+				2A245FE719A3D13D0005B73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A245FE819A3D13D0005B73C /* Build configuration list for PBXNativeTarget "MukoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A245FE919A3D13D0005B73C /* Debug */,
+				2A245FEA19A3D13D0005B73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A245FAB19A3D13C0005B73C /* Project object */;
+}
