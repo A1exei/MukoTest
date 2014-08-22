@@ -21,6 +21,17 @@
 		2A245FD819A3D13D0005B73C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FBA19A3D13D0005B73C /* UIKit.framework */; };
 		2A245FE019A3D13D0005B73C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A245FDE19A3D13D0005B73C /* InfoPlist.strings */; };
 		2A245FE219A3D13D0005B73C /* MukoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A245FE119A3D13D0005B73C /* MukoTestTests.m */; };
+		2A5375EF19A557FF0097EDE1 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5375EE19A557FF0097EDE1 /* SpeechKit.framework */; };
+		2A5375F319A567EB0097EDE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5375F219A567EB0097EDE1 /* SystemConfiguration.framework */; };
+		2AAF287A19A6739C00FDBF97 /* mic_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF287719A6739C00FDBF97 /* mic_green.png */; };
+		2AAF287B19A6739C00FDBF97 /* mic_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF287819A6739C00FDBF97 /* mic_red.png */; };
+		2AAF287C19A6739C00FDBF97 /* mic_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF287919A6739C00FDBF97 /* mic_regular.png */; };
+		2AE1BAB619A3FD0A0029A1B0 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AE1BAB219A3FD0A0029A1B0 /* AcousticModelEnglish.bundle */; };
+		2AE1BAB719A3FD0A0029A1B0 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AE1BAB319A3FD0A0029A1B0 /* AcousticModelSpanish.bundle */; };
+		2AE1BAB819A3FD0A0029A1B0 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE1BAB419A3FD0A0029A1B0 /* OpenEars.framework */; };
+		2AE1BAB919A3FD0A0029A1B0 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE1BAB519A3FD0A0029A1B0 /* Slt.framework */; };
+		2AE1BABB19A3FD1A0029A1B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE1BABA19A3FD1A0029A1B0 /* AVFoundation.framework */; };
+		2AE1BABD19A3FD270029A1B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE1BABC19A3FD270029A1B0 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,17 @@
 		2A245FDD19A3D13D0005B73C /* MukoTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MukoTestTests-Info.plist"; sourceTree = "<group>"; };
 		2A245FDF19A3D13D0005B73C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A245FE119A3D13D0005B73C /* MukoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MukoTestTests.m; sourceTree = "<group>"; };
+		2A5375EE19A557FF0097EDE1 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = ../../Downloads/DragonMobileSDK_1.4.10/SpeechKit.framework; sourceTree = "<group>"; };
+		2A5375F219A567EB0097EDE1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2AAF287719A6739C00FDBF97 /* mic_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_green.png; path = ../../Desktop/mic_green.png; sourceTree = "<group>"; };
+		2AAF287819A6739C00FDBF97 /* mic_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_red.png; path = ../../Desktop/mic_red.png; sourceTree = "<group>"; };
+		2AAF287919A6739C00FDBF97 /* mic_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_regular.png; path = ../../Desktop/mic_regular.png; sourceTree = "<group>"; };
+		2AE1BAB219A3FD0A0029A1B0 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		2AE1BAB319A3FD0A0029A1B0 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		2AE1BAB419A3FD0A0029A1B0 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		2AE1BAB519A3FD0A0029A1B0 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		2AE1BABA19A3FD1A0029A1B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2AE1BABC19A3FD270029A1B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +82,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5375F319A567EB0097EDE1 /* SystemConfiguration.framework in Frameworks */,
+				2A5375EF19A557FF0097EDE1 /* SpeechKit.framework in Frameworks */,
+				2AE1BABD19A3FD270029A1B0 /* AudioToolbox.framework in Frameworks */,
+				2AE1BABB19A3FD1A0029A1B0 /* AVFoundation.framework in Frameworks */,
+				2AE1BAB919A3FD0A0029A1B0 /* Slt.framework in Frameworks */,
 				2A245FB919A3D13D0005B73C /* CoreGraphics.framework in Frameworks */,
 				2A245FBB19A3D13D0005B73C /* UIKit.framework in Frameworks */,
 				2A245FB719A3D13D0005B73C /* Foundation.framework in Frameworks */,
+				2AE1BAB819A3FD0A0029A1B0 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +110,10 @@
 		2A245FAA19A3D13C0005B73C = {
 			isa = PBXGroup;
 			children = (
+				2AAF287719A6739C00FDBF97 /* mic_green.png */,
+				2AAF287819A6739C00FDBF97 /* mic_red.png */,
+				2AAF287919A6739C00FDBF97 /* mic_regular.png */,
+				2AE1BAB119A3FD0A0029A1B0 /* Framework */,
 				2A245FBC19A3D13D0005B73C /* MukoTest */,
 				2A245FDB19A3D13D0005B73C /* MukoTestTests */,
 				2A245FB519A3D13C0005B73C /* Frameworks */,
@@ -101,6 +133,10 @@
 		2A245FB519A3D13C0005B73C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A5375F219A567EB0097EDE1 /* SystemConfiguration.framework */,
+				2A5375EE19A557FF0097EDE1 /* SpeechKit.framework */,
+				2AE1BABC19A3FD270029A1B0 /* AudioToolbox.framework */,
+				2AE1BABA19A3FD1A0029A1B0 /* AVFoundation.framework */,
 				2A245FB619A3D13C0005B73C /* Foundation.framework */,
 				2A245FB819A3D13D0005B73C /* CoreGraphics.framework */,
 				2A245FBA19A3D13D0005B73C /* UIKit.framework */,
@@ -152,6 +188,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2AE1BAB119A3FD0A0029A1B0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2AE1BAB219A3FD0A0029A1B0 /* AcousticModelEnglish.bundle */,
+				2AE1BAB319A3FD0A0029A1B0 /* AcousticModelSpanish.bundle */,
+				2AE1BAB419A3FD0A0029A1B0 /* OpenEars.framework */,
+				2AE1BAB519A3FD0A0029A1B0 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +246,9 @@
 				CLASSPREFIX = MT;
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
+					2A245FB219A3D13C0005B73C = {
+						DevelopmentTeam = 4Z4AL4A375;
+					};
 					2A245FD319A3D13D0005B73C = {
 						TestTargetID = 2A245FB219A3D13C0005B73C;
 					};
@@ -229,6 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A245FCF19A3D13D0005B73C /* Images.xcassets in Resources */,
+				2AAF287A19A6739C00FDBF97 /* mic_green.png in Resources */,
+				2AE1BAB719A3FD0A0029A1B0 /* AcousticModelSpanish.bundle in Resources */,
+				2AAF287B19A6739C00FDBF97 /* mic_red.png in Resources */,
+				2AAF287C19A6739C00FDBF97 /* mic_regular.png in Resources */,
+				2AE1BAB619A3FD0A0029A1B0 /* AcousticModelEnglish.bundle in Resources */,
 				2A245FC119A3D13D0005B73C /* InfoPlist.strings in Resources */,
 				2A245FCA19A3D13D0005B73C /* Main.storyboard in Resources */,
 			);
@@ -376,10 +431,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					/Users/alexeinaumann/Downloads/DragonMobileSDK_1.4.10,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MukoTest/MukoTest-Prefix.pch";
 				INFOPLIST_FILE = "MukoTest/MukoTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +452,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					/Users/alexeinaumann/Downloads/DragonMobileSDK_1.4.10,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MukoTest/MukoTest-Prefix.pch";
 				INFOPLIST_FILE = "MukoTest/MukoTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +527,7 @@
 				2A245FE719A3D13D0005B73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A245FE819A3D13D0005B73C /* Build configuration list for PBXNativeTarget "MukoTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +536,7 @@
 				2A245FEA19A3D13D0005B73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
