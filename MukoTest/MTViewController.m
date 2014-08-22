@@ -65,6 +65,7 @@ const unsigned char SpeechKitApplicationKey[] = {0xd0, 0xc8, 0xa6, 0x41, 0xaa, 0
 - (void) recognizer:(SKRecognizer *)recognizer didFinishWithResults:(SKRecognition *)results {
     NSString *search = [results firstResult];
     if (search) {
+        self.textField.text  = [self.textField.text stringByAppendingString:@"\n"];
         self.textField.text  = [self.textField.text stringByAppendingString:search];
     }
     
