@@ -15,7 +15,6 @@
 		2A245FC719A3D13D0005B73C /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A245FC619A3D13D0005B73C /* MTAppDelegate.m */; };
 		2A245FCA19A3D13D0005B73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A245FC819A3D13D0005B73C /* Main.storyboard */; };
 		2A245FCD19A3D13D0005B73C /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A245FCC19A3D13D0005B73C /* MTViewController.m */; };
-		2A245FCF19A3D13D0005B73C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A245FCE19A3D13D0005B73C /* Images.xcassets */; };
 		2A245FD619A3D13D0005B73C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FD519A3D13D0005B73C /* XCTest.framework */; };
 		2A245FD719A3D13D0005B73C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FB619A3D13C0005B73C /* Foundation.framework */; };
 		2A245FD819A3D13D0005B73C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A245FBA19A3D13D0005B73C /* UIKit.framework */; };
@@ -27,6 +26,10 @@
 		2AAF287B19A6739C00FDBF97 /* mic_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF287819A6739C00FDBF97 /* mic_red.png */; };
 		2AAF287C19A6739C00FDBF97 /* mic_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF287919A6739C00FDBF97 /* mic_regular.png */; };
 		2AC3CDA519A7F4E70053B5FD /* mic_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDA419A7F4E70053B5FD /* mic_blue.png */; };
+		2AC3CDA719A7FDE70053B5FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDA619A7FDE70053B5FD /* Images.xcassets */; };
+		2AC3CDAB19A8007B0053B5FD /* mic_icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDA819A8007B0053B5FD /* mic_icon_58.png */; };
+		2AC3CDAC19A8007B0053B5FD /* mic_icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDA919A8007B0053B5FD /* mic_icon_80.png */; };
+		2AC3CDAD19A8007B0053B5FD /* mic_icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDAA19A8007B0053B5FD /* mic_icon_120.png */; };
 		2AE1BAB619A3FD0A0029A1B0 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AE1BAB219A3FD0A0029A1B0 /* AcousticModelEnglish.bundle */; };
 		2AE1BAB719A3FD0A0029A1B0 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AE1BAB319A3FD0A0029A1B0 /* AcousticModelSpanish.bundle */; };
 		2AE1BAB819A3FD0A0029A1B0 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE1BAB419A3FD0A0029A1B0 /* OpenEars.framework */; };
@@ -59,7 +62,6 @@
 		2A245FC919A3D13D0005B73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A245FCB19A3D13D0005B73C /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
 		2A245FCC19A3D13D0005B73C /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
-		2A245FCE19A3D13D0005B73C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2A245FD419A3D13D0005B73C /* MukoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MukoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A245FD519A3D13D0005B73C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2A245FDD19A3D13D0005B73C /* MukoTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MukoTestTests-Info.plist"; sourceTree = "<group>"; };
@@ -70,7 +72,11 @@
 		2AAF287719A6739C00FDBF97 /* mic_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_green.png; path = ../../Desktop/mic_green.png; sourceTree = "<group>"; };
 		2AAF287819A6739C00FDBF97 /* mic_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_red.png; path = ../../Desktop/mic_red.png; sourceTree = "<group>"; };
 		2AAF287919A6739C00FDBF97 /* mic_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_regular.png; path = ../../Desktop/mic_regular.png; sourceTree = "<group>"; };
-		2AC3CDA419A7F4E70053B5FD /* mic_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_blue.png; path = ../../../Desktop/mic_blue.png; sourceTree = "<group>"; };
+		2AC3CDA419A7F4E70053B5FD /* mic_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_blue.png; path = ../../Desktop/mic_blue.png; sourceTree = "<group>"; };
+		2AC3CDA619A7FDE70053B5FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		2AC3CDA819A8007B0053B5FD /* mic_icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_icon_58.png; sourceTree = "<group>"; };
+		2AC3CDA919A8007B0053B5FD /* mic_icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_icon_80.png; sourceTree = "<group>"; };
+		2AC3CDAA19A8007B0053B5FD /* mic_icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_icon_120.png; sourceTree = "<group>"; };
 		2AE1BAB219A3FD0A0029A1B0 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
 		2AE1BAB319A3FD0A0029A1B0 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
 		2AE1BAB419A3FD0A0029A1B0 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
@@ -113,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				2AAF287719A6739C00FDBF97 /* mic_green.png */,
+				2AC3CDA419A7F4E70053B5FD /* mic_blue.png */,
 				2AAF287819A6739C00FDBF97 /* mic_red.png */,
 				2AAF287919A6739C00FDBF97 /* mic_regular.png */,
 				2AE1BAB119A3FD0A0029A1B0 /* Framework */,
@@ -155,8 +162,7 @@
 				2A245FC819A3D13D0005B73C /* Main.storyboard */,
 				2A245FCB19A3D13D0005B73C /* MTViewController.h */,
 				2A245FCC19A3D13D0005B73C /* MTViewController.m */,
-				2AC3CDA419A7F4E70053B5FD /* mic_blue.png */,
-				2A245FCE19A3D13D0005B73C /* Images.xcassets */,
+				2AC3CDA619A7FDE70053B5FD /* Images.xcassets */,
 				2A245FBD19A3D13D0005B73C /* Supporting Files */,
 			);
 			path = MukoTest;
@@ -165,6 +171,9 @@
 		2A245FBD19A3D13D0005B73C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2AC3CDA819A8007B0053B5FD /* mic_icon_58.png */,
+				2AC3CDA919A8007B0053B5FD /* mic_icon_80.png */,
+				2AC3CDAA19A8007B0053B5FD /* mic_icon_120.png */,
 				2A245FBE19A3D13D0005B73C /* MukoTest-Info.plist */,
 				2A245FBF19A3D13D0005B73C /* InfoPlist.strings */,
 				2A245FC219A3D13D0005B73C /* main.m */,
@@ -281,12 +290,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A245FCF19A3D13D0005B73C /* Images.xcassets in Resources */,
+				2AC3CDA719A7FDE70053B5FD /* Images.xcassets in Resources */,
+				2AC3CDAB19A8007B0053B5FD /* mic_icon_58.png in Resources */,
 				2AAF287A19A6739C00FDBF97 /* mic_green.png in Resources */,
 				2AE1BAB719A3FD0A0029A1B0 /* AcousticModelSpanish.bundle in Resources */,
 				2AAF287B19A6739C00FDBF97 /* mic_red.png in Resources */,
 				2AAF287C19A6739C00FDBF97 /* mic_regular.png in Resources */,
+				2AC3CDAD19A8007B0053B5FD /* mic_icon_120.png in Resources */,
 				2AE1BAB619A3FD0A0029A1B0 /* AcousticModelEnglish.bundle in Resources */,
+				2AC3CDAC19A8007B0053B5FD /* mic_icon_80.png in Resources */,
 				2A245FC119A3D13D0005B73C /* InfoPlist.strings in Resources */,
 				2AC3CDA519A7F4E70053B5FD /* mic_blue.png in Resources */,
 				2A245FCA19A3D13D0005B73C /* Main.storyboard in Resources */,
