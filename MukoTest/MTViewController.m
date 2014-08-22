@@ -27,8 +27,8 @@ const unsigned char SpeechKitApplicationKey[] = {0xd0, 0xc8, 0xa6, 0x41, 0xaa, 0
                     useSSL: NO
                   delegate: self];
     
-    microphone = [UIImage imageNamed:@"mic_green.png"];
-    microphoneRecording = [UIImage imageNamed:@"mic_red.png"];
+    microphone = [UIImage imageNamed:@"mic_regular.png"];
+    microphoneRecording = [UIImage imageNamed:@"mic_blue.png"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,12 +39,13 @@ const unsigned char SpeechKitApplicationKey[] = {0xd0, 0xc8, 0xa6, 0x41, 0xaa, 0
 
 - (IBAction)performRecogntion:(id)sender {
     
+    NSLog(@"Button Pressed");
     if (isRecording) {
         [recognizer stopRecording];
         [microphoneButton setImage:microphone forState:UIControlStateNormal];
-    } else if(!isRecording) {
-        [microphoneButton setImage:microphoneRecording forState:UIControlStateNormal];
-    } else if (!recognizer) {
+    } if(!isRecording) {
+//        [microphoneButton setImage:microphoneRecording forState:UIControlStateNormal];
+    } if (!recognizer) {
         self.recognizer = [[SKRecognizer alloc] initWithType:SKSearchRecognizerType
                                                    detection:SKShortEndOfSpeechDetection
                                                     language:@"en_US"
@@ -54,19 +55,25 @@ const unsigned char SpeechKitApplicationKey[] = {0xd0, 0xc8, 0xa6, 0x41, 0xaa, 0
 
 -(void) recognizerDidBeginRecording:(SKRecognizer *)recognizer {
     isRecording = YES;
+    [microphoneButton setImage:microphoneRecording forState:UIControlStateNormal];
 }
 
 - (void) recognizerDidFinishRecording:(SKRecognizer *)recognizer {
     isRecording = NO;
-  
+    [microphoneButton setImage:microphone forState:UIControlStateNormal];
 
 }
 
 - (void) recognizer:(SKRecognizer *)recognizer didFinishWithResults:(SKRecognition *)results {
     NSString *search = [results firstResult];
+    
     if (search) {
-        self.textField.text  = [self.textField.text stringByAppendingString:@"\n"];
-        self.textField.text  = [self.textField.text stringByAppendingString:search];
+        if ([search isEqualToString:@"clear"] || [search isEqualToString:@"Clear"] ) {
+            self.textField.text  = nil;
+        } else {
+            self.textField.text  = [self.textField.text stringByAppendingString:search];
+            self.textField.text  = [self.textField.text stringByAppendingString:@"\n"];
+        }
     }
     
     //Put code here for suggestions from SpeechKit to improve recognition
