@@ -22,10 +22,10 @@
 		2A245FE219A3D13D0005B73C /* MukoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A245FE119A3D13D0005B73C /* MukoTestTests.m */; };
 		2A5375EF19A557FF0097EDE1 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5375EE19A557FF0097EDE1 /* SpeechKit.framework */; };
 		2A5375F319A567EB0097EDE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5375F219A567EB0097EDE1 /* SystemConfiguration.framework */; };
-		2AAF287A19A6739C00FDBF97 /* mic_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF287719A6739C00FDBF97 /* mic_green.png */; };
-		2AAF287B19A6739C00FDBF97 /* mic_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF287819A6739C00FDBF97 /* mic_red.png */; };
-		2AAF287C19A6739C00FDBF97 /* mic_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF287919A6739C00FDBF97 /* mic_regular.png */; };
-		2AC3CDA519A7F4E70053B5FD /* mic_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDA419A7F4E70053B5FD /* mic_blue.png */; };
+		2AA3417E19B7D4FE000C2096 /* mic_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3417A19B7D4FE000C2096 /* mic_blue.png */; };
+		2AA3417F19B7D4FE000C2096 /* mic_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3417B19B7D4FE000C2096 /* mic_green.png */; };
+		2AA3418019B7D4FE000C2096 /* mic_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3417C19B7D4FE000C2096 /* mic_red.png */; };
+		2AA3418119B7D4FE000C2096 /* mic_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3417D19B7D4FE000C2096 /* mic_regular.png */; };
 		2AC3CDA719A7FDE70053B5FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDA619A7FDE70053B5FD /* Images.xcassets */; };
 		2AC3CDAB19A8007B0053B5FD /* mic_icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDA819A8007B0053B5FD /* mic_icon_58.png */; };
 		2AC3CDAC19A8007B0053B5FD /* mic_icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3CDA919A8007B0053B5FD /* mic_icon_80.png */; };
@@ -69,10 +69,10 @@
 		2A245FE119A3D13D0005B73C /* MukoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MukoTestTests.m; sourceTree = "<group>"; };
 		2A5375EE19A557FF0097EDE1 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = ../../Downloads/DragonMobileSDK_1.4.10/SpeechKit.framework; sourceTree = "<group>"; };
 		2A5375F219A567EB0097EDE1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		2AAF287719A6739C00FDBF97 /* mic_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_green.png; path = ../../Desktop/mic_green.png; sourceTree = "<group>"; };
-		2AAF287819A6739C00FDBF97 /* mic_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_red.png; path = ../../Desktop/mic_red.png; sourceTree = "<group>"; };
-		2AAF287919A6739C00FDBF97 /* mic_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_regular.png; path = ../../Desktop/mic_regular.png; sourceTree = "<group>"; };
-		2AC3CDA419A7F4E70053B5FD /* mic_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_blue.png; path = ../../Desktop/mic_blue.png; sourceTree = "<group>"; };
+		2AA3417A19B7D4FE000C2096 /* mic_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_blue.png; sourceTree = "<group>"; };
+		2AA3417B19B7D4FE000C2096 /* mic_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_green.png; sourceTree = "<group>"; };
+		2AA3417C19B7D4FE000C2096 /* mic_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_red.png; sourceTree = "<group>"; };
+		2AA3417D19B7D4FE000C2096 /* mic_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_regular.png; sourceTree = "<group>"; };
 		2AC3CDA619A7FDE70053B5FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		2AC3CDA819A8007B0053B5FD /* mic_icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_icon_58.png; sourceTree = "<group>"; };
 		2AC3CDA919A8007B0053B5FD /* mic_icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_icon_80.png; sourceTree = "<group>"; };
@@ -118,10 +118,10 @@
 		2A245FAA19A3D13C0005B73C = {
 			isa = PBXGroup;
 			children = (
-				2AAF287719A6739C00FDBF97 /* mic_green.png */,
-				2AC3CDA419A7F4E70053B5FD /* mic_blue.png */,
-				2AAF287819A6739C00FDBF97 /* mic_red.png */,
-				2AAF287919A6739C00FDBF97 /* mic_regular.png */,
+				2AA3417A19B7D4FE000C2096 /* mic_blue.png */,
+				2AA3417B19B7D4FE000C2096 /* mic_green.png */,
+				2AA3417C19B7D4FE000C2096 /* mic_red.png */,
+				2AA3417D19B7D4FE000C2096 /* mic_regular.png */,
 				2AE1BAB119A3FD0A0029A1B0 /* Framework */,
 				2A245FBC19A3D13D0005B73C /* MukoTest */,
 				2A245FDB19A3D13D0005B73C /* MukoTestTests */,
@@ -290,17 +290,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA3418019B7D4FE000C2096 /* mic_red.png in Resources */,
 				2AC3CDA719A7FDE70053B5FD /* Images.xcassets in Resources */,
 				2AC3CDAB19A8007B0053B5FD /* mic_icon_58.png in Resources */,
-				2AAF287A19A6739C00FDBF97 /* mic_green.png in Resources */,
 				2AE1BAB719A3FD0A0029A1B0 /* AcousticModelSpanish.bundle in Resources */,
-				2AAF287B19A6739C00FDBF97 /* mic_red.png in Resources */,
-				2AAF287C19A6739C00FDBF97 /* mic_regular.png in Resources */,
+				2AA3417F19B7D4FE000C2096 /* mic_green.png in Resources */,
 				2AC3CDAD19A8007B0053B5FD /* mic_icon_120.png in Resources */,
 				2AE1BAB619A3FD0A0029A1B0 /* AcousticModelEnglish.bundle in Resources */,
 				2AC3CDAC19A8007B0053B5FD /* mic_icon_80.png in Resources */,
+				2AA3418119B7D4FE000C2096 /* mic_regular.png in Resources */,
 				2A245FC119A3D13D0005B73C /* InfoPlist.strings in Resources */,
-				2AC3CDA519A7F4E70053B5FD /* mic_blue.png in Resources */,
+				2AA3417E19B7D4FE000C2096 /* mic_blue.png in Resources */,
 				2A245FCA19A3D13D0005B73C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
